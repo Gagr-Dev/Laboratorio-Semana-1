@@ -13,4 +13,4 @@ esta es la demostracion del escape Analysis de Go es una decision automatica en 
 
 y se ejecuta el garbage collector una vez la variable escapo al heap , este mismo vigila en segundo plano cuando main( ) (o cualquiera otra funcion ) deja de apuntar a esa direccion para liberar esa memoria de forma segura.
 
-manda automaticamente la operacion al heap antes de si quiera compilar 
+manda automaticamente la operacion al heap antes de si quiera compilar. 

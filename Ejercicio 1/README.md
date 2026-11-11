@@ -23,7 +23,7 @@ Usando la terminal de desarrollo que trae visual studio 2022, compile el archivo
   Tamano de struct CDR_Optimizado  : 16 bytes
   Estructuras optimizadas por Cache Line (64B): 4 unidades
 
-  Los valores hexadecimales observados son la direccion de memoria virtual exacta (em bytes) donde el sistema operativo alojo cada funcion o variable en un espacio de 64 bits.
+  Los valores hexadecimales observados son la direccion de memoria virtual exacta (en bytes) donde el sistema operativo alojo cada funcion o variable en un espacio de 64 bits.
 
   El cambio que se muestra en los ultimos digitos no es un simple codigo de secuencia , ni una etiqueta de nivel sino el desplazamiento en bytes dentro de una misma region de memoria. Los primeros digitos se mantienen iguales por que los datos de un mismo grupo comparten la misma zona o pagina base , mientras que los ultimos digitos cambian segun cuantos bytes de distancia entre cada dato.
 
